@@ -5,7 +5,7 @@ class Fetch {
 
         //make request to url
         const response = await fetch(
-            `https://api.openweathermap.org/data/2.5/forecast/daily?q=${input}&cnt=10&appid=${mykey}`
+            `https://api.openweathermap.org/data/2.5/forecast/daily?q=${input}&cnt=10&appid=${myKey}`
         );
 
         const data = await response.json();
